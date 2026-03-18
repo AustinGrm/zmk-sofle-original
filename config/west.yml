@@ -11,13 +11,13 @@ manifest:
   projects:
    # - name: mario-peripheral-animation
    #   remote: gpeye
-   #    revision: main 
+   #    revision: main
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
-      revision: main
+      revision: 504d2a54c861a85a279de6d3a7acf59c335820d4
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      revision: 0f7c11248a1ddb7c6559064c2a1e7a3c446d5d55
       import: app/west.yml
   self:
-    path: boards
+    path: config
